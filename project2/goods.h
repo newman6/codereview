@@ -12,7 +12,7 @@ class Goods{
   int GetIndex();
   int GetPrice();
 
- private:
+ protected:
   int goods_index_ = 0;
   int goods_price_ = 0;
 };
